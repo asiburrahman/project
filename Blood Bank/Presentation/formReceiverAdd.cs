@@ -93,5 +93,15 @@ namespace Blood_Bank.Presentation
         {
 
         }
+
+        private void Label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormReceiverAdd_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

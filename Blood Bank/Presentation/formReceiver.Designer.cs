@@ -43,7 +43,9 @@
             this.textBoxSearch = new System.Windows.Forms.TextBox();
             this.buttonAdd = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewShowReceiver)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonExit
@@ -51,7 +53,7 @@
             this.buttonExit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonExit.BackgroundImage")));
             this.buttonExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonExit.Location = new System.Drawing.Point(460, 14);
+            this.buttonExit.Location = new System.Drawing.Point(688, 26);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(200, 46);
             this.buttonExit.TabIndex = 25;
@@ -63,7 +65,7 @@
             this.buttonDelete.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonDelete.BackgroundImage")));
             this.buttonDelete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonDelete.Location = new System.Drawing.Point(-3, 249);
+            this.buttonDelete.Location = new System.Drawing.Point(27, 284);
             this.buttonDelete.Name = "buttonDelete";
             this.buttonDelete.Size = new System.Drawing.Size(113, 67);
             this.buttonDelete.TabIndex = 24;
@@ -75,7 +77,7 @@
             this.buttonUpdate.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonUpdate.BackgroundImage")));
             this.buttonUpdate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonUpdate.Location = new System.Drawing.Point(-3, 171);
+            this.buttonUpdate.Location = new System.Drawing.Point(27, 206);
             this.buttonUpdate.Name = "buttonUpdate";
             this.buttonUpdate.Size = new System.Drawing.Size(113, 71);
             this.buttonUpdate.TabIndex = 22;
@@ -87,6 +89,7 @@
             this.dataGridViewShowReceiver.AllowUserToAddRows = false;
             this.dataGridViewShowReceiver.AllowUserToDeleteRows = false;
             this.dataGridViewShowReceiver.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridViewShowReceiver.BackgroundColor = System.Drawing.Color.IndianRed;
             this.dataGridViewShowReceiver.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewShowReceiver.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColId,
@@ -95,11 +98,11 @@
             this.ColFacebook,
             this.ColMobile,
             this.COlAddress});
-            this.dataGridViewShowReceiver.Location = new System.Drawing.Point(116, 88);
+            this.dataGridViewShowReceiver.Location = new System.Drawing.Point(247, 88);
             this.dataGridViewShowReceiver.Name = "dataGridViewShowReceiver";
             this.dataGridViewShowReceiver.ReadOnly = true;
             this.dataGridViewShowReceiver.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewShowReceiver.Size = new System.Drawing.Size(711, 232);
+            this.dataGridViewShowReceiver.Size = new System.Drawing.Size(789, 435);
             this.dataGridViewShowReceiver.TabIndex = 27;
             this.dataGridViewShowReceiver.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewShowReceiver_CellContentClick);
             // 
@@ -151,7 +154,7 @@
             this.buttonSearch.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonSearch.BackgroundImage")));
             this.buttonSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSearch.Location = new System.Drawing.Point(349, 61);
+            this.buttonSearch.Location = new System.Drawing.Point(428, 55);
             this.buttonSearch.Name = "buttonSearch";
             this.buttonSearch.Size = new System.Drawing.Size(97, 27);
             this.buttonSearch.TabIndex = 28;
@@ -161,7 +164,7 @@
             // textBoxSearch
             // 
             this.textBoxSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxSearch.Location = new System.Drawing.Point(168, 61);
+            this.textBoxSearch.Location = new System.Drawing.Point(247, 55);
             this.textBoxSearch.Name = "textBoxSearch";
             this.textBoxSearch.Size = new System.Drawing.Size(175, 24);
             this.textBoxSearch.TabIndex = 29;
@@ -171,7 +174,7 @@
             // 
             this.buttonAdd.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonAdd.BackgroundImage")));
             this.buttonAdd.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonAdd.Location = new System.Drawing.Point(-3, 94);
+            this.buttonAdd.Location = new System.Drawing.Point(27, 119);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(113, 71);
             this.buttonAdd.TabIndex = 31;
@@ -182,35 +185,45 @@
             // 
             this.label1.BackColor = System.Drawing.Color.Maroon;
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("SketchFlow Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(830, 23);
+            this.label1.Size = new System.Drawing.Size(1048, 23);
             this.label1.TabIndex = 32;
             this.label1.Text = "Received Blood";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.buttonAdd);
+            this.panel1.Controls.Add(this.buttonUpdate);
+            this.panel1.Controls.Add(this.buttonDelete);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 23);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 512);
+            this.panel1.TabIndex = 33;
+            // 
             // formReceiver
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.Color.IndianRed;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(830, 321);
+            this.ClientSize = new System.Drawing.Size(1048, 535);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.buttonAdd);
             this.Controls.Add(this.textBoxSearch);
             this.Controls.Add(this.buttonSearch);
             this.Controls.Add(this.dataGridViewShowReceiver);
             this.Controls.Add(this.buttonExit);
-            this.Controls.Add(this.buttonDelete);
-            this.Controls.Add(this.buttonUpdate);
             this.Name = "formReceiver";
             this.Text = "formReceiver";
             this.Load += new System.EventHandler(this.formReceiver_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewShowReceiver)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -232,5 +245,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn COlAddress;
         private System.Windows.Forms.Button buttonAdd;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel1;
     }
 }

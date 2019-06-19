@@ -1,4 +1,6 @@
-﻿namespace Blood_Bank
+﻿using System.Drawing;
+
+namespace Blood_Bank
 {
     partial class Form1
     {
@@ -32,6 +34,7 @@
             this.buttonDonor = new System.Windows.Forms.Button();
             this.buttonReceiver = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1.BackColor = Color.Transparent;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -72,6 +75,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(196, 186);
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.BackColor = Color.Transparent;
             // 
             // Form1
             // 

@@ -49,7 +49,7 @@
             this.buttonExit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonExit.BackgroundImage")));
             this.buttonExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonExit.Location = new System.Drawing.Point(218, 275);
+            this.buttonExit.Location = new System.Drawing.Point(272, 327);
             this.buttonExit.Name = "buttonExit";
             this.buttonExit.Size = new System.Drawing.Size(75, 56);
             this.buttonExit.TabIndex = 36;
@@ -61,7 +61,7 @@
             this.buttonSave.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonSave.BackgroundImage")));
             this.buttonSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSave.Location = new System.Drawing.Point(107, 275);
+            this.buttonSave.Location = new System.Drawing.Point(161, 327);
             this.buttonSave.Name = "buttonSave";
             this.buttonSave.Size = new System.Drawing.Size(75, 56);
             this.buttonSave.TabIndex = 35;
@@ -71,10 +71,10 @@
             // textBoxAddress
             // 
             this.textBoxAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxAddress.Location = new System.Drawing.Point(118, 205);
+            this.textBoxAddress.Location = new System.Drawing.Point(142, 204);
             this.textBoxAddress.Multiline = true;
             this.textBoxAddress.Name = "textBoxAddress";
-            this.textBoxAddress.Size = new System.Drawing.Size(175, 64);
+            this.textBoxAddress.Size = new System.Drawing.Size(296, 64);
             this.textBoxAddress.TabIndex = 33;
             // 
             // label5
@@ -83,7 +83,7 @@
             this.label5.BackColor = System.Drawing.Color.Brown;
             this.label5.Font = new System.Drawing.Font("Segoe Print", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label5.Location = new System.Drawing.Point(19, 205);
+            this.label5.Location = new System.Drawing.Point(6, 205);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(72, 26);
             this.label5.TabIndex = 38;
@@ -92,9 +92,9 @@
             // textBoxMobile
             // 
             this.textBoxMobile.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxMobile.Location = new System.Drawing.Point(118, 168);
+            this.textBoxMobile.Location = new System.Drawing.Point(142, 167);
             this.textBoxMobile.Name = "textBoxMobile";
-            this.textBoxMobile.Size = new System.Drawing.Size(175, 24);
+            this.textBoxMobile.Size = new System.Drawing.Size(296, 24);
             this.textBoxMobile.TabIndex = 32;
             // 
             // label4
@@ -103,7 +103,7 @@
             this.label4.BackColor = System.Drawing.Color.Brown;
             this.label4.Font = new System.Drawing.Font("Segoe Print", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label4.Location = new System.Drawing.Point(32, 168);
+            this.label4.Location = new System.Drawing.Point(6, 166);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(59, 26);
             this.label4.TabIndex = 37;
@@ -122,17 +122,17 @@
             "B+",
             "AB-",
             "AB+"});
-            this.comboBoxBlood.Location = new System.Drawing.Point(118, 90);
+            this.comboBoxBlood.Location = new System.Drawing.Point(142, 89);
             this.comboBoxBlood.Name = "comboBoxBlood";
-            this.comboBoxBlood.Size = new System.Drawing.Size(175, 26);
+            this.comboBoxBlood.Size = new System.Drawing.Size(296, 26);
             this.comboBoxBlood.TabIndex = 29;
             // 
             // textBoxFacebook
             // 
             this.textBoxFacebook.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxFacebook.Location = new System.Drawing.Point(118, 133);
+            this.textBoxFacebook.Location = new System.Drawing.Point(142, 132);
             this.textBoxFacebook.Name = "textBoxFacebook";
-            this.textBoxFacebook.Size = new System.Drawing.Size(175, 24);
+            this.textBoxFacebook.Size = new System.Drawing.Size(296, 24);
             this.textBoxFacebook.TabIndex = 30;
             this.textBoxFacebook.TextChanged += new System.EventHandler(this.textBoxFacebook_TextChanged);
             // 
@@ -142,7 +142,7 @@
             this.label3.BackColor = System.Drawing.Color.Brown;
             this.label3.Font = new System.Drawing.Font("Segoe Print", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label3.Location = new System.Drawing.Point(35, 131);
+            this.label3.Location = new System.Drawing.Point(6, 132);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(53, 26);
             this.label3.TabIndex = 34;
@@ -163,9 +163,9 @@
             // textBoxName
             // 
             this.textBoxName.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxName.Location = new System.Drawing.Point(118, 56);
+            this.textBoxName.Location = new System.Drawing.Point(142, 55);
             this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(175, 24);
+            this.textBoxName.Size = new System.Drawing.Size(296, 24);
             this.textBoxName.TabIndex = 27;
             // 
             // label1
@@ -174,7 +174,7 @@
             this.label1.BackColor = System.Drawing.Color.Brown;
             this.label1.Font = new System.Drawing.Font("Segoe Print", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(35, 56);
+            this.label1.Location = new System.Drawing.Point(6, 56);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 26);
             this.label1.TabIndex = 28;
@@ -184,14 +184,16 @@
             // label6
             // 
             this.label6.BackColor = System.Drawing.Color.Maroon;
+            this.label6.Dock = System.Windows.Forms.DockStyle.Top;
             this.label6.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label6.Location = new System.Drawing.Point(-1, 0);
+            this.label6.Location = new System.Drawing.Point(0, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(311, 32);
+            this.label6.Size = new System.Drawing.Size(484, 32);
             this.label6.TabIndex = 39;
             this.label6.Text = "Receiver Add";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label6.Click += new System.EventHandler(this.Label6_Click);
             // 
             // formReceiverAdd
             // 
@@ -199,7 +201,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(309, 333);
+            this.ClientSize = new System.Drawing.Size(484, 461);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.buttonSave);
@@ -215,6 +217,7 @@
             this.Controls.Add(this.label1);
             this.Name = "formReceiverAdd";
             this.Text = "formReceiverAdd";
+            this.Load += new System.EventHandler(this.FormReceiverAdd_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

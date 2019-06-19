@@ -105,5 +105,10 @@ namespace Blood_Bank.Presentation
             donarAdd.ShowDialog();
             buttonSearch.PerformClick();
         }
+
+        private void DataGridViewShowDonar_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
