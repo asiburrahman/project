@@ -18,17 +18,18 @@ namespace Blood_Bank
             InitializeComponent();
         }
 
-        private void buttonDoner_Click(object sender, EventArgs e)
-        {
-            formDoner formDoner = new formDoner();
-            formDoner.Show();
-            this.Hide();
-        }
 
         private void buttonReceiver_Click(object sender, EventArgs e)
         {
             formReceiver formReceiver = new formReceiver();
             formReceiver.Show();
+            this.Hide();
+        }
+
+        private void buttonDonor_Click(object sender, EventArgs e)
+        {
+            formDonor formDoner = new formDonor();
+            formDoner.Show();
             this.Hide();
         }
     }

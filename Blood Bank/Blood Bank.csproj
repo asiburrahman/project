@@ -53,23 +53,23 @@
     <Compile Include="Presentation\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentation\formDoner.cs">
+    <Compile Include="Presentation\formDonor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentation\formDoner.Designer.cs">
-      <DependentUpon>formDoner.cs</DependentUpon>
+    <Compile Include="Presentation\formDonor.Designer.cs">
+      <DependentUpon>formDonor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentation\formDonerAdd.cs">
+    <Compile Include="Presentation\formDonorAdd.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentation\formDonerAdd.Designer.cs">
-      <DependentUpon>formDonerAdd.cs</DependentUpon>
+    <Compile Include="Presentation\formDonorAdd.Designer.cs">
+      <DependentUpon>formDonorAdd.cs</DependentUpon>
     </Compile>
-    <Compile Include="Presentation\formDonerUpdate.cs">
+    <Compile Include="Presentation\formDonrUpdate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Presentation\formDonerUpdate.Designer.cs">
-      <DependentUpon>formDonerUpdate.cs</DependentUpon>
+    <Compile Include="Presentation\formDonrUpdate.Designer.cs">
+      <DependentUpon>formDonrUpdate.cs</DependentUpon>
     </Compile>
     <Compile Include="Presentation\formReceiver.cs">
       <SubType>Form</SubType>
@@ -94,14 +94,14 @@
     <EmbeddedResource Include="Presentation\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Presentation\formDoner.resx">
-      <DependentUpon>formDoner.cs</DependentUpon>
+    <EmbeddedResource Include="Presentation\formDonor.resx">
+      <DependentUpon>formDonor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Presentation\formDonerAdd.resx">
-      <DependentUpon>formDonerAdd.cs</DependentUpon>
+    <EmbeddedResource Include="Presentation\formDonorAdd.resx">
+      <DependentUpon>formDonorAdd.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Presentation\formDonerUpdate.resx">
-      <DependentUpon>formDonerUpdate.cs</DependentUpon>
+    <EmbeddedResource Include="Presentation\formDonrUpdate.resx">
+      <DependentUpon>formDonrUpdate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentation\formReceiver.resx">
       <DependentUpon>formReceiver.cs</DependentUpon>

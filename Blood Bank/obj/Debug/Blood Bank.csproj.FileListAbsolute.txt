@@ -56,3 +56,19 @@ C:\Users\hmhri\Downloads\Blood Bank\Blood Bank\Blood Bank\obj\Debug\Blood Bank.c
 C:\Users\hmhri\Downloads\Blood Bank\Blood Bank\Blood Bank\obj\Debug\Blood Bank.csproj.CoreCompileInputs.cache
 C:\Users\hmhri\Downloads\Blood Bank\Blood Bank\Blood Bank\obj\Debug\Blood Bank.exe
 C:\Users\hmhri\Downloads\Blood Bank\Blood Bank\Blood Bank\obj\Debug\Blood Bank.pdb
+D:\projects\C#\blood\Blood Bank\bin\Debug\Blood Bank.exe.config
+D:\projects\C#\blood\Blood Bank\bin\Debug\Blood Bank.exe
+D:\projects\C#\blood\Blood Bank\bin\Debug\Blood Bank.pdb
+D:\projects\C#\blood\Blood Bank\obj\Debug\Blood_Bank.Form1.resources
+D:\projects\C#\blood\Blood Bank\obj\Debug\Blood_Bank.Presentation.formReceiver.resources
+D:\projects\C#\blood\Blood Bank\obj\Debug\Blood_Bank.Presentation.formReceiverAdd.resources
+D:\projects\C#\blood\Blood Bank\obj\Debug\Blood_Bank.Presentation.formReceiverUpdate.resources
+D:\projects\C#\blood\Blood Bank\obj\Debug\Blood_Bank.Properties.Resources.resources
+D:\projects\C#\blood\Blood Bank\obj\Debug\Blood Bank.csproj.GenerateResource.cache
+D:\projects\C#\blood\Blood Bank\obj\Debug\Blood Bank.csproj.CoreCompileInputs.cache
+D:\projects\C#\blood\Blood Bank\obj\Debug\Blood Bank.exe
+D:\projects\C#\blood\Blood Bank\obj\Debug\Blood Bank.pdb
+D:\projects\C#\blood\Blood Bank\obj\Debug\Blood_Bank.Presentation.formDonor.resources
+D:\projects\C#\blood\Blood Bank\obj\Debug\Blood_Bank.Presentation.formDonorAdd.resources
+D:\projects\C#\blood\Blood Bank\obj\Debug\Blood_Bank.Presentation.formDonrUpdate.resources
+D:\projects\C#\blood\Blood Bank\obj\Debug\Blood Bank.csprojAssemblyReference.cache
